@@ -1,0 +1,16 @@
+{
+  "source": "CMU Graphics Lab Motion Capture Database, subject 90 trial 32",
+  "source_page": "https://mocap.cs.cmu.edu/search.php?subjectnumber=90",
+  "original_experiment_sha256": "be6a26ddebbbb5677bfea81cdfc00621221428eabc9ef3c9aecf17610b0f6a48",
+  "release_sha256": "2c5af44022050ba593622c03336e8058c6ec7dfd027daf2680ca72060e9e2d19",
+  "packaging_change": "Only source string replaced to remove private machine path; all numeric arrays unchanged.",
+  "fps": 50,
+  "frames": 301,
+  "duration_seconds": 6.0,
+  "robot": "g1_no_plastic_hands",
+  "terms": "CMU terms apply; not MIT; do not resell motion data, even converted.",
+  "raw_source_sha256": {
+    "90.asf": "2b8d402ef539db75263ab7c7697bc387777fa037ac55ee85a7b734960c965384",
+    "90_32.amc": "a9964f4478e0ae8cd2b7072586639c758e7eae3c425a4bf632629db27c35dc98"
+  }
+}

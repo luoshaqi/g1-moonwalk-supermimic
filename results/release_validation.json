@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-26",
+  "hardware": "NVIDIA A800-SXM4-80GB",
+  "python_syntax": "passed",
+  "shell_syntax": "passed",
+  "documentation_relative_links": "passed",
+  "private_path_and_secret_pattern_scan": "passed",
+  "short_training": {
+    "iterations": 70,
+    "num_envs": 64,
+    "batch_size": 64,
+    "num_updates": 2,
+    "elapsed_seconds": 94.24472518265247,
+    "all_three_networks_finite_and_changed": true,
+    "strict_pretrained_load": true,
+    "checkpoint_saved": true
+  },
+  "retarget_rebuild": {
+    "numeric_arrays_bitwise_equal_to_bundled_motion": true,
+    "tested_input": "original human_reference_xyz.npz, CMU 90_32",
+    "elapsed_seconds": 19.42433476448059
+  },
+  "evaluation_reusing_original_3000_checkpoint": {
+    "baseline": {
+      "steps": 300,
+      "expected_steps": 300,
+      "failed": false,
+      "full_clip_normalized_return": 0.8341455032428106,
+      "joint_rmse_rad": 0.17162340197644824,
+      "root_position_error_m": 0.11967683654140573,
+      "root_orientation_error_rad": 0.1307094551211037
+    },
+    "finetuned_3000": {
+      "steps": 300,
+      "expected_steps": 300,
+      "failed": false,
+      "full_clip_normalized_return": 0.9453269660472869,
+      "joint_rmse_rad": 0.1354825992695631,
+      "root_position_error_m": 0.03638261468838474,
+      "root_orientation_error_rad": 0.07067181883680598
+    },
+    "note": "Small numerical differences from the original run; not bitwise deterministic. Historical results are retained unchanged."
+  },
+  "replayed_videos_full_decode": "both passed",
+  "portable_portrait_script": {
+    "executed": true,
+    "full_decode": "passed",
+    "width": 1080,
+    "height": 1920,
+    "duration_seconds": 6.04,
+    "frames": 151
+  },
+  "not_tested": [
+    "Fresh dependency installation on a clean machine",
+    "Another full 3000-iteration run using publication wrappers",
+    "Other hardware",
+    "Real robot",
+    "Held-out generalization"
+  ],
+  "cmu_decoder_rebuild": {
+    "joint_names_equal": true,
+    "max_absolute_position_difference_m": 8.881784197001252e-16,
+    "allclose_atol_m": 1e-12
+  },
+  "replayed_video_representative_frame": "visually inspected"
+}

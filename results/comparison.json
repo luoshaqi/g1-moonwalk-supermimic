@@ -1,0 +1,213 @@
+{
+  "baseline": {
+    "name": "cmu90_32_moonwalk",
+    "category": "moonwalk",
+    "category_group": "dance",
+    "flip_sub_kind": "",
+    "split": "train",
+    "heldout": false,
+    "source": "CMU 90_32 user-approved G1 retarget v2",
+    "frames": 301,
+    "expected_steps": 300,
+    "steps": 300,
+    "completion_ratio": 1.0,
+    "failed": false,
+    "failure_step": -1,
+    "finite": true,
+    "return_per_alive_step": 0.08329262988020976,
+    "full_clip_normalized_return": 0.8329262988020977,
+    "joint_rmse_rad": 0.17186636178255818,
+    "root_position_error_m": 0.12205830635375058,
+    "root_orientation_error_rad": 0.1264415098372216,
+    "actual_min_up_z": 0.990361951906977,
+    "actual_inverted_observed": false,
+    "actual_min_up_z_preterminal": 0.990361951906977,
+    "actual_inverted_observed_preterminal": false,
+    "reference_min_up_z": 1.0,
+    "n_err_pairs": 299,
+    "return_sum": 24.98778896406293,
+    "termination_flags": {
+      "root_height": false,
+      "root_tilt": false,
+      "clip_end": true,
+      "time_out": false
+    },
+    "termination_reasons": [
+      "clip_end"
+    ],
+    "trigger_height_error_m": 0.057050466537475586,
+    "trigger_tilt_error": 0.0037446022033691406,
+    "terminal_height_error_m_fresh": 0.05592149496078491,
+    "terminal_tilt_error_fresh": 0.004050677237109834,
+    "terminal_state_recorded": true
+  },
+  "finetuned_checkpoints": {
+    "1000": {
+      "name": "cmu90_32_moonwalk",
+      "category": "moonwalk",
+      "category_group": "dance",
+      "flip_sub_kind": "",
+      "split": "train",
+      "heldout": false,
+      "source": "CMU 90_32 user-approved G1 retarget v2",
+      "frames": 301,
+      "expected_steps": 300,
+      "steps": 300,
+      "completion_ratio": 1.0,
+      "failed": false,
+      "failure_step": -1,
+      "finite": true,
+      "return_per_alive_step": 0.09158290579915046,
+      "full_clip_normalized_return": 0.9158290579915047,
+      "joint_rmse_rad": 0.13596647723406594,
+      "root_position_error_m": 0.0653483723501507,
+      "root_orientation_error_rad": 0.10418500906763706,
+      "actual_min_up_z": 0.977689382792355,
+      "actual_inverted_observed": false,
+      "actual_min_up_z_preterminal": 0.977689382792355,
+      "actual_inverted_observed_preterminal": false,
+      "reference_min_up_z": 1.0,
+      "n_err_pairs": 299,
+      "return_sum": 27.47487173974514,
+      "termination_flags": {
+        "root_height": false,
+        "root_tilt": false,
+        "clip_end": true,
+        "time_out": false
+      },
+      "termination_reasons": [
+        "clip_end"
+      ],
+      "trigger_height_error_m": 0.043678343296051025,
+      "trigger_tilt_error": 0.007269144058227539,
+      "terminal_height_error_m_fresh": 0.04307311773300171,
+      "terminal_tilt_error_fresh": 0.007546224478348407,
+      "terminal_state_recorded": true
+    },
+    "2000": {
+      "name": "cmu90_32_moonwalk",
+      "category": "moonwalk",
+      "category_group": "dance",
+      "flip_sub_kind": "",
+      "split": "train",
+      "heldout": false,
+      "source": "CMU 90_32 user-approved G1 retarget v2",
+      "frames": 301,
+      "expected_steps": 300,
+      "steps": 300,
+      "completion_ratio": 1.0,
+      "failed": false,
+      "failure_step": -1,
+      "finite": true,
+      "return_per_alive_step": 0.09445998780429363,
+      "full_clip_normalized_return": 0.9445998780429363,
+      "joint_rmse_rad": 0.13502782213740092,
+      "root_position_error_m": 0.04031605613860509,
+      "root_orientation_error_rad": 0.07224989476709967,
+      "actual_min_up_z": 0.992025553854124,
+      "actual_inverted_observed": false,
+      "actual_min_up_z_preterminal": 0.992025553854124,
+      "actual_inverted_observed_preterminal": false,
+      "reference_min_up_z": 1.0,
+      "n_err_pairs": 299,
+      "return_sum": 28.33799634128809,
+      "termination_flags": {
+        "root_height": false,
+        "root_tilt": false,
+        "clip_end": true,
+        "time_out": false
+      },
+      "termination_reasons": [
+        "clip_end"
+      ],
+      "trigger_height_error_m": 0.023679077625274658,
+      "trigger_tilt_error": 0.001054227352142334,
+      "terminal_height_error_m_fresh": 0.02313762903213501,
+      "terminal_tilt_error_fresh": 0.0011109710652120741,
+      "terminal_state_recorded": true
+    },
+    "3000": {
+      "name": "cmu90_32_moonwalk",
+      "category": "moonwalk",
+      "category_group": "dance",
+      "flip_sub_kind": "",
+      "split": "train",
+      "heldout": false,
+      "source": "CMU 90_32 user-approved G1 retarget v2",
+      "frames": 301,
+      "expected_steps": 300,
+      "steps": 300,
+      "completion_ratio": 1.0,
+      "failed": false,
+      "failure_step": -1,
+      "finite": true,
+      "return_per_alive_step": 0.0945327701419592,
+      "full_clip_normalized_return": 0.9453277014195919,
+      "joint_rmse_rad": 0.1354822040346444,
+      "root_position_error_m": 0.03638174710541415,
+      "root_orientation_error_rad": 0.0706707959613878,
+      "actual_min_up_z": 0.99210079976859,
+      "actual_inverted_observed": false,
+      "actual_min_up_z_preterminal": 0.99210079976859,
+      "actual_inverted_observed_preterminal": false,
+      "reference_min_up_z": 1.0,
+      "n_err_pairs": 299,
+      "return_sum": 28.359831042587757,
+      "termination_flags": {
+        "root_height": false,
+        "root_tilt": false,
+        "clip_end": true,
+        "time_out": false
+      },
+      "termination_reasons": [
+        "clip_end"
+      ],
+      "trigger_height_error_m": 0.0201185941696167,
+      "trigger_tilt_error": 6.35981559753418e-05,
+      "terminal_height_error_m_fresh": 0.0196610689163208,
+      "terminal_tilt_error_fresh": 7.566902400757414e-05,
+      "terminal_state_recorded": true
+    }
+  },
+  "selected_finetune_iteration": 3000,
+  "selected_checkpoint": "<UPSTREAM_ROOT>/logs/moonwalk_e009_finetune_20261025/ckpt_0003000.pt",
+  "selection_rule": "Prefer complete non-failed clip, then completion ratio, then full-clip normalized return; select only among finetuned checkpoints.",
+  "scope": "In-simulation evaluation of the training motion, not held-out generalization or real-robot validation.",
+  "finetuned_better_than_baseline_by_selection_rule": true,
+  "finetune_summary": {
+    "source_checkpoint": "<UPSTREAM_ROOT>/checkpoints/ckpt_0040000.pt",
+    "source_iteration": 40000,
+    "motion": "user-approved CMU 90_32 G1 retarget v2",
+    "transfer": "all three network weights; fresh optimizers/replay/sampler",
+    "learning_rates": {
+      "world_model": 5e-05,
+      "actor": 5e-05,
+      "critic": 5e-05
+    },
+    "device": "NVIDIA A800-SXM4-80GB",
+    "execution": "completed",
+    "iteration": 3000,
+    "num_updates": 1174,
+    "parameter_changes": {
+      "world_model": {
+        "changed_tensors": 14,
+        "max_abs_change": 0.060332298278808594,
+        "finite": true
+      },
+      "actor": {
+        "changed_tensors": 20,
+        "max_abs_change": 0.013179510831832886,
+        "finite": true
+      },
+      "critic": {
+        "changed_tensors": 6,
+        "max_abs_change": 0.19001002609729767,
+        "finite": true
+      }
+    },
+    "elapsed_seconds": 5159.732541660778,
+    "peak_allocated_bytes": 2955804160,
+    "peak_reserved_bytes": 3093299200
+  },
+  "motion_sha256": "be6a26ddebbbb5677bfea81cdfc00621221428eabc9ef3c9aecf17610b0f6a48"
+}
